@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--set the font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sign up form</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header-img-container">
+        <img class="header-img" />
+      </header>
+
+      <!-- Sign-up form start -->
+      <section>
+        <div class="register-container">
+          <h2>Stay updated!</h2>
+          <p class="register-text">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <div class="register-list-items-outer-container">
+            <ul class="register-list-items-container">
+              <li class="register-list-items">
+                Product discovery and building what matters
+              </li>
+              <li class="register-list-items">
+                Measuring to ensure updates are a success
+              </li>
+              <li class="register-list-items">And much more!</li>
+            </ul>
+          </div>
+
+          <form class="form-container">
+            <p>Email address:</p>
+            <input
+              type="email"
+              class="register-email-input"
+              placeholder="email@company.com"
+            />
+
+            <button class="register-btn">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
