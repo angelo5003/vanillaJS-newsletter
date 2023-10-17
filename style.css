@@ -20,6 +20,12 @@ body {
     height: 17.8rem;
   }
 
+  .form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .register-container {
     display: flex;
     justify-content: center;
@@ -54,14 +60,19 @@ body {
   }
 
   .register-email-input {
-    width: 18.75rem;
     padding: 1rem;
     border-radius: 0.43rem;
     border-color: hsl(231, 7%, 60%);
+    margin-bottom: 1.25rem;
   }
 
   .register-btn {
-    width: 18.75rem;
     padding: 1rem;
+    border-radius: 0.43rem;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
   }
 }
