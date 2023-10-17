@@ -19,7 +19,10 @@
   <body>
     <div id="app">
       <header class="header-img-container">
-        <img class="header-img" />
+        <img
+          src="/assets/images/illustration-sign-up-mobile.svg"
+          class="header-img"
+        />
       </header>
 
       <!-- Sign-up form start -->
@@ -42,19 +45,40 @@
           </div>
 
           <form class="form-container">
-            <p>Email address:</p>
+            <p class="form-title">Email address:</p>
             <input
               type="email"
               class="register-email-input"
               placeholder="email@company.com"
             />
 
-            <button type="submit" class="register-btn">
+            <button id="reg-btn" type="submit" class="form-btn">
               Subscribe to monthly newsletter
             </button>
           </form>
         </div>
       </section>
+      <!-- Sign-up form end -->
+
+      <!-- Success message start -->
+      <div id="succes-modal">
+        <div class="modal-container">
+          <img
+            src="/assets/images/icon-success.svg"
+            class="succes-icon"
+            alt="success-icon"
+          />
+
+          <h1>Thanks for subscribing!</h1>
+          <p>
+            A confirmation email has been sent to ash@loremcompany.com. Please
+            open it and click the button inside to confirm your subscription.
+            Dismiss message
+          </p>
+          <button id="close-btn" class="form-btn">Dismiss Message</button>
+        </div>
+      </div>
+      <!-- Success message end -->
     </div>
     <script type="module" src="/main.js"></script>
   </body>
